@@ -1,0 +1,32 @@
+Algo TP19
+
+Variables
+
+nbTab : entier
+tabNb1, tabNb2, tabAddition : tableau[]
+
+Début
+
+    Écrire("Combien chiffre souhaite-tu entrer dans chaque tableau ?")
+    Lire(nbTab)
+
+    Redimensionner(tabNb1[nbTab ])
+    Redimensionner(tabNb2[nbTab])
+    Redimensionner(tabAddition[nbTab])
+
+    Pour i allant de 0 à nbTab - 1 faire
+        Écrire("Entrez le chiffre numéro", i + 1, "du premier tableau")
+        Lire(tabNb1[i])
+    FinPour
+
+    Pour j allant de 0 à nbTab - 1 faire
+    Écrire("Entrez le chiffre numéro", i + 1, "du deuxième tableau")
+        Lire(tabNb2[i])
+    FinPour
+
+    Pour n allant de 0 à nbTab - 1 faire
+        tabAddition[n] <- tabNb1[n] + tabNb2[n]
+        Écrire(tabNb1[n] " + " tabNb2[n] " = " tabAddition[n])
+    FinPour
+
+Fin

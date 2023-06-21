@@ -1,0 +1,60 @@
+Enregistrement boissons
+    id: entier,
+    nom: chaine,
+    prix: float
+FinEnregistrement
+
+
+Algo TP21
+
+Variables
+
+listeBoissons : tabeau[4] de boissons
+boissonBought : entier
+moneyInsert : float
+
+Début
+
+listeBoissons.id[0] <- 1
+listeBoissons.nom[0] <- "Coca Cola"
+listeBoissons.prix[0] <- 0.80
+
+listeBoissons.id[1] <- 2
+listeBoissons.nom[1] <- "Fanta"
+listeBoissons.prix[1] <- 0.70
+
+listeBoissons.id[2] <- 3
+listeBoissons.nom[2] <- "Ice Tea"
+listeBoissons.prix[2] <- 0.70
+
+listeBoissons.id[3] <- 4
+listeBoissons.nom[3] <- "Perrier"
+listeBoissons.prix[3] <- 1
+
+
+
+
+Écrire("Quel boisson souhaitez-vous ?")
+Lire(boissonBought)
+
+    Pour i allant de 0 à compteur(listeBoissons) faire
+
+        Si (listeBoissons[i].id = boissonBought) faire
+            Écrire('Le prix de votre boisson ', listeBoissons[i].name, 'est de: ', listeBoissons[i].prix)
+
+            Si (moneyInsert >= listeBoissons[i].prix)
+                Écrire('Votre boisson', listeBoissons[i].name, 'est prête')
+
+                Si (moneyInsert > listeBoissons[i].prix)
+                    Écrire('Nous vous rendons ', moneyInsert - listeBoissons[i].prix)
+                FinSi
+
+            Sinon
+                Écrire('Vous n'avez pas inséré assez d'argent !')
+            FinSi
+
+        FinSi
+
+    FinPour
+
+Fin

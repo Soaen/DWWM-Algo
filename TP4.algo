@@ -1,0 +1,11 @@
+algo tp4
+
+Variables prenom, nom : chaine
+
+Début
+Écrire("Quel est votre prénom")
+Lire(prenom)
+Écrire("Quel est votre nom")
+Lire(nom)
+Écrire("votre nom complet est ", prenom, nom)
+Fin

@@ -1,0 +1,20 @@
+algo TP17
+
+Variables
+notes : tableau[30] de float
+
+Début
+
+
+    Pour i allant de 0 à 29 faire
+        Écrire("Note n° ", i+1)
+        Lire(notes[i])
+    FinPour
+
+
+    Pour j allant de 0 à 29 faire
+        Écrire(notes[j])
+    FinPour
+
+
+Fin

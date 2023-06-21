@@ -1,0 +1,25 @@
+algo TP12
+
+Variables
+nb : entier
+nbTotal : entier
+calcul : chaine
+
+Début
+    
+    Écrire("Jusqu'à quel chiffre souhaite-tu aller ?")
+    Lire(nb)
+    somme <- 0
+    calcul <- ""
+    Pour i allant de 1 à nb faire
+        nbTotal <- nbTotal + i
+        si (i < nb) alors
+            calcul <- calcul & i & " + "
+        sinon
+            calcul <- calcul & i
+        FinSi
+    FinPour
+
+    Écrire("La somme de " calcul "=" nbTotal)
+
+Fin

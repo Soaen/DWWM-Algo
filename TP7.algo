@@ -1,0 +1,18 @@
+algo TP7
+
+Variables
+animal : chaine4
+
+Début
+
+Écrire("De quel animal souhaite-tu entendre le cri ? Chien / Chat / Vache / Mouton")
+Lire(animal)
+
+Cas ou(animal) vaut
+    Chien : Écrire("wouf")
+    Chat : Écrire("miaou")
+    Vache : Écrire("meuh")
+    Mouton : Écrire("BÉÉÉÉÉÉÉÉÉÉÉÉÉÉÉÉÉÉÉÉH")
+FinCas
+
+Fin

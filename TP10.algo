@@ -1,0 +1,39 @@
+algo TP10
+
+Variables
+nombre : float
+
+
+Début
+Écrire("Saisissez un nombre")
+Lire(nombre)
+
+ TANTQUE (nombre < 1) OU (nombre > 3) FAIRE
+
+    ÉCRIRE("Le chiffre n'est pas compris entre 1 et 3 compris.")
+    LIRE(nombre)
+
+  FINTANTQUE
+
+  ÉCRIRE("Le chiffre est compris entre 1 et 3!")
+
+
+Fin
+
+
+
+
+Début
+
+Répéter
+
+    ÉCRIRE("Le chiffre n'est pas compris entre 1 et 3 compris.")
+    LIRE(nombre)
+
+Jusqu'à (nombre >= 1) ET (nombre <= 3)
+
+Fin
+
+
+
+

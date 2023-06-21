@@ -1,0 +1,34 @@
+Enregistrement infosVehicules
+    marque: chaine,
+    modele: chaine,
+    anneeDeProduction: entier,
+    couleur: chaine,
+    kilometrage: entier
+FinEnregistrement
+
+Algo TP20
+
+Variables
+
+voiture : infosVehicules
+garage : tableau[3] de infosVehicules
+
+Début
+
+   Pour i allant de 0 à compteur(garage)
+        Écrire('Entre la marque du véhicule que tu souhaites ajouter')
+        Lire(garage[i].marque)
+
+        Écrire('Entre le modèle du véhicule que tu souhaites ajouter')
+        Lire(garage[i].modele)
+
+        Écrire('Entre l'année de production du véhicule que tu souhaites ajouter')
+        Lire(garage[i].anneeDeProduction)
+
+        Écrire('Entre la couleur du véhicule que tu souhaites ajouter')
+        Lire(garage[i].couleur)
+
+        Écrire('Entre le kilometrage du véhicule que tu souhaites ajouter')
+        Lire(garage[i].kilometrage)
+    FinPour
+Fin

@@ -1,0 +1,16 @@
+algo TP11
+
+Variables
+
+nb : entier
+
+Début
+
+Écrire('quel table vous souhaitez afficher ?')
+Lire(nb)
+
+Pour i allant de 0 à 10 faire
+    Écrire(i "*" nb "=" nb * i)
+FinPour
+
+Fin

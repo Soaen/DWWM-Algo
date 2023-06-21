@@ -1,0 +1,20 @@
+algo TP8
+
+Variables
+nbClesUsb : entier
+prix : float
+
+Début
+Écrire("Combien de clé USB souhaitez-vous ?")
+  Lire(nbCleUsb)
+Si(nbClesUsb < 10) alors
+    prix <- nbClesUsb * 5
+Sinon
+    Si(nbClesUsb < 20) alors
+    prix <- nbClesUsb *4
+    Sinon
+        prix <- nbClesUsb * 3
+    FinSi
+FinSi
+Écrire("Le prix est de ", prix) 
+Fin

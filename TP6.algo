@@ -1,0 +1,16 @@
+algo TP6
+
+Variables
+nb : float
+
+Début
+Écrire("Saisissez un nombre")
+Lire(nb)
+
+Si (nb > 12) alors
+    Écrire("Le nombre est supérieur à 12 !")
+Sinon 
+    Écrire("Le nombre est inférieur ou égal à 12 !")
+FinSi
+
+Fin

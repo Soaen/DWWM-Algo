@@ -1,0 +1,24 @@
+algo TP14
+
+Variables
+
+nb : Entier
+chaineEntiere : chaine
+
+Début
+    nb <- 0
+    chaineEntiere <- ""
+
+    Écrire('Entrez un chiffre')
+    Lire(nb)
+
+    Pour i allant de 0 à nb faire
+            Pour n allant de 0 à i faire
+                chaineEntiere <- chaineEntiere & "O"
+            FinPour
+        chaineEntiere <- chaineEntiere & "K\n"
+    FinPour
+
+    Écrire(chaineEntiere)
+
+Fin

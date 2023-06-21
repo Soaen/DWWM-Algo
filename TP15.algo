@@ -1,0 +1,30 @@
+fonction nbPlusGrand(nb1 : float, nb2 : float) : float
+    
+Début
+
+    Si(nb1 > nb2) faire
+        Retourner nb1
+    Sinon
+        Retourner nb2
+    FinSi
+
+Fin
+
+
+
+Algo TP15
+
+Variables
+nombrePrompt1, nombrePrompt2 : float
+
+Début
+
+    Écrire("entrez un premier nombre")
+    Lire(nombrePrompt1)
+
+    Écrire("Entrez un deuxième nombre")
+    Lire(nombrePrompt2)
+
+    Écrire("Le chiffre le plus grand est " nbPlusGrand(nombrePrompt1, nombrePrompt2) )
+
+Fin

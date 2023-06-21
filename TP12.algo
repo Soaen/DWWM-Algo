@@ -1,0 +1,16 @@
+algo TP12
+
+Variables
+  nombre, nombreMax, i : entier
+
+Début
+    nombre <- 0
+  Pour i allant de 1 à 20 faire
+    Écrire("Saisissez un nombre entier :")
+    Lire(nombre)
+    Si (nombre > nbMax) alors
+      nombreMax <- nombre
+    FinSi
+  FinPour
+  Écrire("le nombre le plus grand est", nombreMax)
+Fin

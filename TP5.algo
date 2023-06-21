@@ -1,0 +1,19 @@
+algo TP5
+
+Variables
+prixHT;TVA,prixTTC,prixTVA : float
+
+Début
+
+Écrire("Quel est le prix Hors Taxe ?")
+Lire(prixHT)
+
+Écrire("Quel est la TVA ?)
+Lire(TVA)
+
+prixTVA <- prixHT * TVA/100
+prixTTC <- prixHT + prixTVA
+
+Écrire("Le prix est de " prixTTC)
+
+Fin

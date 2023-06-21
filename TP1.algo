@@ -1,0 +1,7 @@
+algo tp1
+Variables 
+age Entier
+
+Début
+age <- 21
+Fin

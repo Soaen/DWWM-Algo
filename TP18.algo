@@ -1,0 +1,19 @@
+algo TP18
+
+Variables
+tabNotes : tableau[15, 3] de float
+
+Début
+
+    Pour i allant de 0 à 14 faire
+
+        
+        Pour j allant de 0 à 2 faire 
+
+            Écrire("Entrez la note de la matière n° ", j + 1 "pour l'étudiant n° " i + 1)
+            Lire(tabNotes[i, j]
+
+        FinPour
+    FinPour
+
+Fin
